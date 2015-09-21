@@ -11,7 +11,9 @@
 ## get the value of the inverse of the matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
+# initialize the stored inverse value to NULL
     i <- NULL
+    
     set <- function(y) {
         x <<- y
         i <<- NULL
